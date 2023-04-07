@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
 }
-h2{
+.clients h2{
     font-family: 'Sassy Frass';
     color: black;
     font-size: 2rem;
@@ -78,7 +78,7 @@ header{
         justify-content: space-between;
         margin: 209px 0 125px 0;
         background: rgba(122, 98, 76, 0.7);
-box-shadow: 63px 67px 0px rgba(255, 255, 255, 0.3);
+        box-shadow: 63px 67px 0px rgba(255, 255, 255, 0.3);
 padding: 40px 40px 0 40px;
     }
 .content_left{
@@ -93,11 +93,14 @@ padding: 40px 40px 0 40px;
     align-items: flex-end;
     /* margin: 0 160px 0 0; */
 }
-.clients p{
-    margin-top: 60px ;
+.clients-text{
+    width: 878;
+    font-family: 'Inter';
+    height: 72px;
+    text-align: center;
+    margin-top: 50px ;
     font-weight: 400;
     font-size: 1.5rem;
-    align-items: center;
     display: flex;
     justify-content: center;
 
@@ -106,12 +109,153 @@ padding: 40px 40px 0 40px;
 .clients{
 
 }
-.card-clients{
+.card-clients1{
     width: 336px;
     height: 443px ;
     background-image: url("../img/c1.png");
+    padding: 33px 24px 33px 24px;
+}
+.card-clients2{
+    width: 336px;
+    height: 443px ;
+    background-image: url("../img/c2.jpg");
+    padding: 33px 24px 33px 24px;
+}
+.card-clients3{
+    width: 336px;
+    height: 443px ;
+    background-image: url("../img/c3.png");
+    padding: 33px 24px 33px 24px;
+}
+.card-client-container{
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
 }
 
-.card-clients-content{
+ .card-clients-content{
+        max-width: 286px;
+        min-height: 377px ;
+        background-color: #FFFFfF;
+        display: flex;
+        flex-direction: column;
+    
+}
+.card-clients-content_img{
+    max-width: 70px;
+    max-height: 70px;
+    margin: 28px auto 0px auto;
+}
+.card-clients-content-za{
+margin-top: 23px;
+font-family:'Istok Web';
+color: black;
+font-weight: 400;
+font-size: 1.125rem;
+text-align: center;
+}
+.card-clients-content-text{
+    color: black;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 0.75rem;
+    width: 214px;
+    height: 90px;
+    margin: 27px auto 0 auto;
+  
+}
+.header-curs{
+    margin-top: 118px;
+    height: 165px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-image: url(../img/curs.png);
+    background-size:cover;
+}
+.header-curs p{
+    font-family: 'Istok Web';
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align:center;
+    margin-top: 25px;
+}
 
+.header-curs h2{
+    font-family: 'Sassy Frass';
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align:center;
+}
+.main-container-curs{
+    margin: 403px 0 0 0;
+    width: 1190px;
+    height: 929px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.cards-curs-content{
+    display: flex;
+    width: 580px;
+    height: 443px;
+}
+.cards-curs-content-left{
+    width: 53%;
+
+}
+.cards-curs-content-rhight{
+    background: #7A624C;
+    width: 47%;
+}
+.cards-curs-content-rhight_description{
+    background: white;
+    width: 187px;
+    height: 382px;
+    margin: 30px auto 30px auto;
+}
+.cards-curs-content-rhight_description-za
+{
+padding: 30px ;
+font-family:'Istok Web';
+color: black;
+font-weight: 400;
+font-size: 1.125rem;
+text-align: center;
+}
+.cards-curs-content-rhight_description p{
+    width: 157px;
+    height: 195px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.main-block-ms{
+    margin: 120px 0 0 0 ;
+    position: relative;
+    background-image: url("../img/ms.png");
+    min-height: 100vh;
+    background-size: cover;
+}
+.header-ms{
+
+    height: 158px;
+    width: 634px;
+    background-image: url("../img/romb.png");
+    margin: 45px auto;
+}
+.header-ms h2{
+    font-family: 'Sassy Frass';
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+  align-items: center;
+ padding: 45px 0 0 0 ;
+text-align:center;
 }
