@@ -164,8 +164,12 @@ text-align: center;
     margin: 27px auto 0 auto;
   
 }
+.curs{
+    margin-top: 120px;
+    display: flex;
+    height: 1214px;
+}
 .header-curs{
-    margin-top: 118px;
     height: 165px;
     width: 100%;
     position: absolute;
@@ -240,7 +244,7 @@ text-align: center;
     margin: 120px 0 0 0 ;
     position: relative;
     background-image: url("../img/ms.png");
-    min-height: 100vh;
+    min-height: 1315px;
     background-size: cover;
 }
 .header-ms{
@@ -248,7 +252,8 @@ text-align: center;
     height: 158px;
     width: 634px;
     background-image: url("../img/romb.png");
-    margin: 45px auto;
+    margin: 0px auto;
+    
 }
 .header-ms h2{
     font-family: 'Sassy Frass';
@@ -260,3 +265,54 @@ text-align: center;
 text-align:center;
 
 }
+.content-ms{
+    margin: 30px 0 112px 179px;
+    width: 600px;
+    height: 956px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: #949B63;
+    /*width: 240px;
+    height: 956px;*/
+
+}
+.content-ms-romb{
+    background: #949B63;
+    opacity: .6;
+    width: 240px;
+    height: 956px;
+  
+}
+.content-ms-card{
+    display: flex;
+
+}
+.content-ms-card-left{
+    margin: 0 0 0 21px;
+    background: white;
+    width: 436px;
+    height: 177px;
+    opacity: 1;
+    padding: 40px 66px 28px 40px ;
+}
+.content-ms-card-left h3{
+    font-family:'Istok Web';
+    color: black;
+    font-weight: 400;
+    font-size: 1.125rem;
+    }
+    .content-ms-card-left p{
+        width: 330px;
+        height: 75px;
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-family: 'Inter';
+        margin-top: 10px;
+    }
+    .content-ms-card img{
+     width: 207px;
+     height: 188px;
+     margin: -18px 0 0 -63px;
+    }
