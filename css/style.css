@@ -319,3 +319,74 @@ text-align:center;
      height: 188px;
      margin: -18px 0 0 -63px;
     }
+    .main-block-reg{
+        margin: 130px 0 85px 0;
+        height: 681px;
+    }
+    .header-reg{
+        height: 35px;
+    }
+    .header-reg h2{
+        font-family: 'Sassy Frass';
+        color: black;
+        font-size: 2rem;
+        font-weight: 400;
+        align-items: center;
+         text-align:center;
+    }
+    .content-reg{
+        margin-top: 80px;
+        height: 563px;
+        display: flex;
+    }
+    .content-reg .content-left{
+        width: 32%;
+        height: 494px;
+        margin: 45px 0 25px 0;
+        background-image: url("../img/reg-img.png");
+    }
+    .content-reg .content-right{
+        width: 68%;
+        height: 100%;
+        background-image: url("../img/reg-card.png");
+    }
+    
+    .content-reg .content-left .content-left-r1 {
+        background: rgba(217, 217, 217, 0.6);
+        height: 360px;
+        width: 275px;
+        margin: 80px auto 54px auto;
+    }
+    .content-reg .content-left .content-left-r2 {
+        background: rgba(217, 217, 217, 0.6);
+        height: 269px;
+        width: 205px;       
+        margin: -369px auto 46px auto;
+    }
+    .content-reg .content-left .content-left-r2 .content-left-d{
+        padding: 87px auto;
+        width: 157px; 
+       height: 95px;
+    }
+    .content-reg .content-left .content-left-r2 .content-left-d h3{
+        font-family:'Sassy Frass';
+    color: black;
+    font-weight: 400;
+    font-size: 1.125rem;
+    height: 20px;
+    width: 152px;
+    text-align: center;
+    align-items: center;
+
+
+    }
+    .content-reg .content-left .content-left-r2 .content-left-d p{
+        color: black;
+        height: 81px;
+        width: 152px;
+        font-size: 0.75rem;
+        margin-top: 15px;
+        font-weight: 400;
+        font-family: 'Inter';
+        align-items: center;
+    }
