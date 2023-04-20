@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
 }
-h1{
+ h1{
     font-family: 'Istok Web';
     font-size: 2.25rem;
     font-weight: 400;
@@ -636,3 +636,94 @@ width: 139px;
     color: #414753;
     text-align: right;
 }
+button.burger{
+    border: none;
+    width: 40px;
+    height: 28px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    display: none;
+    transform: translateX(0px);
+}
+button.burger .line{
+    width: 100%;
+    height: 2px;
+    background: white;
+    display: block;
+    transition: 0.3s;
+  
+}
+
+@media screen and (max-width: 900px) {
+    .content .content_left h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .clients h2{
+        margin-top: 60px;
+    }
+    .clients-text{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .card-client-container{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .card-clients1{
+margin: 30px auto 0 auto;
+    }
+    .card-clients2{
+        margin: 15px auto 0 auto;
+    }
+    .card-clients3{
+        margin: 15px auto 0 auto;
+    }
+    .content .content_left p{
+        font-size: 0.8rem;
+
+       margin: 0 auto;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .curs{
+        margin-top: 60px;
+    }
+    .header-curs p{
+        
+    }
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 350px;
+        box-shadow: none;
+        height: 400px;
+        padding-bottom: 50px;
+    }
+    .content_left{
+        width: 100%;
+        margin-top: 30px;
+    }
+   
+    .content_right{
+        margin: 0 auto;
+    }
+    button.burger{
+        display: flex;
+    }
+    .main-block .menu{
+        display: none;
+    }
+    header img{
+        height: 42%;
+    }
+}
+
